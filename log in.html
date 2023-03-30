@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <style>
+        body 
+        {
+            background-color: grey;
+        }
+
+        h1 
+        {
+            color: white;
+            text-align: center;
+        }
+
+        p 
+        {
+            font-family: verdana;
+            font-size: 20px;
+        }
+
+        button 
+        {
+            width: 107%;
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin:  8px 9;
+            border: center;
+            cursor: pointer;
+        }
+        button:hover
+         {
+        opacity: 0.8;
+        }
+
+
+    </style>
+
+    <meta charset="UTF-8">
+    <title> Login Form </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./login.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+   
+    <div id="login-form-wrap">
+        
+        <h1 style=" font-family: cursive; " style="font-size:400%;">Log in form </h1>
+        <form id="login-form">
+            <p>
+                <input type="email" id="email" name="email" placeholder="Email Address" required><i
+                    class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                <input type="text" id="passwrd=" passwrd" placeholder="passwrd" required><i
+                    class="validation"><span></span><span></span></i>
+            </p>
+            <p>
+                <button type="submit"> Sign in </button>
+            </p>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="descripion" content=" sherch employee informtion" />
+  <title>Employee information</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./empinf.css">
+
+  <style>
+    body 
+    {
+      background-color: grey;
+    }
+
+    h1 
+    {
+      color: white;
+      text-align: left;
+    }
+
+    p 
+    {
+      font-family: verdana;
+      font-size: 20px;
+    }
+
+    button 
+    {
+      width: 107%;
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 9;
+      border: left;
+      cursor: pointer;
+    }
+
+    button:hover 
+    {
+      opacity: 0.8;
+    }
+
+    label {
+      color: rgb(7, 7, 7);
+      font-family: verdana;
+      font-size: 18px;
+    }
+    .verticalLine 
+    {
+        border-left: 4px solid #0b0b0c;
+        height: 800px;
+        position: absolute;
+        left: 110%;
+        margin-left: 3px;
+        top: 20;
+        Bottom :10%
+      }
+  </style>
+  <!-- rel="stylesheet" href=""-->
+</head>
+
+<body align="left">
+  <div id="emp-form-wrap">
+    <h1 style=" font-family: cursive; " style="font-size:400%;"> Employee information </h1>
+    <!--font color = "green" size="7" face="arial"> test the font </font-->
+
+    <form id="emp-form">
+      <label for="emp"> Enter employee SSN:</label><br>
+      <p>
+        <input type="text" id="emp" name="emp" placeholder="SSN number" required> <i
+          class="validation"><span></span><span></span></i> <br>
+        <button type="submit"> Submit </button>
+      </p>
+    </form>
+  </div>
+  <div class="verticalLine"></div>
+</body>
+
+</html>
