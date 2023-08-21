@@ -2,6 +2,7 @@
 
 
 1. "login.html": This page is designed to gather login information from users. It likely includes input fields for username and password or any other relevant login credentials. The goal is to create a table in the database to store user information. The report provides more details on this process.
+   
   ![Screenshot 2023-03-30 155852](https://user-images.githubusercontent.com/85491809/228984670-2acf220e-817c-4d23-af6a-19e8b66e15dc.png)
 
 
